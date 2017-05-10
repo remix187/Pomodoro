@@ -1,0 +1,62 @@
+html {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #dd3b41;
+    text-align: center;
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
+h1 {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #9d1318;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.duration {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.time {
+    display: inline-block;
+    font-size: 140px;
+    color: #f7f7f7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42%;
+}
+
+/* BUTTON*/
+
+.start-button {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+    transition: .1s ease-in;
+}
+
+.start-button:hover {
+    color: #9d1318;
+    transition: all ease 0.1s;
+}
